@@ -66,10 +66,9 @@ const day30TempF = (day30TempC * 9 / 5) + 32
 //! Start the calculation of the total temperatures
 const tot_temperature_in_fahrenheit = day1TempF + day2TempF + day3TempF + day4TempF + day5TempF +day6TempF + day7TempF + day8TempF + day9TempF + day10TempF + day11TempF + day12TempF + day13TempF + day14TempF + day15TempF + day16TempF + day17TempF + day18TempF + day19TempF + day20TempF + day21TempF + day22TempF + day23TempF + day24TempF + day25TempF + day26TempF + day27TempF + day28TempF + day29TempF + day30TempF
 
-
+const tot_temperature_in_celsius = day1TempC + day2TempC + day3TempC + day4TempC + day5TempC + day6TempC + day7TempC + day8TempC + day9TempC + day10TempC + day11TempC + day12TempC + day13TempC + day14TempC + day15TempC + day16TempC + day17TempC + day18TempC + day19TempC + day20TempC + day21TempC + day22TempC + day23TempC + day24TempC + day25TempC + day26TempC + day27TempC + day28TempC + day29TempC + day30TempC
 
 //* Then apply the conversion to calculate the total in the other unit of measurement
-const tot_temperature_in_celsius = (tot_temperature_in_fahrenheit -32) * 5 / 9
 
 //* Call the variables: tot_temperature_in_fahrenheit and tot_temperature_in_celsius
 
